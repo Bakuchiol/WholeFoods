@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top navbar */
+.navBar {
+    background: #004e36;
+    display: flex;
+    height: 65px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+/* left logo */
+.logo {
+    padding: 10px 20px 0 0;
+    border-right: 1px solid white;
+    margin: 0 20px 0 50px;
+}
+/* browsing list */
+.lists {
+    display: flex;
+}
+.list {
+    margin-right: 60px;
+    margin-top: 20px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    gap: 25px;
+}
+li {
+    /* margin-right: 30px; */
+    font-size: 18px;
+}
+/* search bar */
+.searchBar {
+    display: flex;
+    margin-top: 10px;
+}
+.search{
+    height: 30px;
+    width: 300px;
+    background: #fff;
+    display: flex;
+    padding: 5px;
+}
+.box {
+    border-style: none;
+    width: 250px;
+    font-size: 16px;
+    opacity: 65%;
+    padding-top: 3px;
+}
+/* magnifying glass icon inside search bar(downloaded svg) */
+.searchIcon {
+    background: #fff;
+    height: 20px;
+    margin: 5px 12px 0 5px;
+}
+.listIcon {
+    display: flex;
+}
+/* list icon next to list (downloaded svg) */
+.navList {
+    height: 26px;
+    margin: -5px 15px 0 20px;
+}
+.logIn {
+    margin-top: 12px;
+    display: flex;
+    color: #fff;
+    gap: 15px;
+    font-size: 18px;
+}
+/* ------------------------------------------ */
+/* find a store div */
+.store {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #004e36;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.store img {
+    height: 16px;
+    margin: 0 60px 0 10px;
+}
