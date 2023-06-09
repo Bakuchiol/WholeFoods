@@ -342,7 +342,7 @@ hr {
     text-align: center;
     z-index: 99;
     position: relative;
-    left: 160px;
+    left: 100px;
 }
 .amazon h2,p {
     color: black;
@@ -357,7 +357,7 @@ hr {
 .delivery {
     z-index: 99;
     position: relative;
-    left: 290px;
+    left: 200px;
     top: 120px;
     width: 310px;
     text-align: center;
@@ -385,7 +385,7 @@ hr {
 /* -------------------------------------------- */
 /* FOOTER */
 .logopic2 {
-    /* width: 20%; */
+    margin-top: -21px;
     margin-left: 40px;
     padding: 20px;
   }
@@ -402,6 +402,7 @@ hr {
     background-color: #004E36;
     color: white;
     border: 1px solid #004E36;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .contentsection {
     display: flex;
@@ -411,6 +412,11 @@ hr {
   .contentsection p {
     background: #004E36;
     color: #fff;
+    line-height: 2em;
+    font-size: 18px;
+  }
+  .contentsection h2{
+    margin-bottom: 20px;
   }
   .amazon {
     color: white;
@@ -420,13 +426,20 @@ hr {
     border-left: solid white;
     padding-left: 40px;
     background: #004E36;
+    line-height: 3em;
   }
   .shopping {
     margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .shopping h2 {
+    margin-bottom: 20px;
   }
   .shopping p {
     background: #004E36;
     color: #fff;
+    line-height: 2em;
+    font-size: 18px;
   }
   .shop {
     list-style: none;
@@ -437,7 +450,20 @@ hr {
     color: white;
     height: 50px;
     width: 200px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+  }
+  .customer{
+    display: flex;
+    gap: 5px;
+  }
+  .customer p {
+    font-size: 15px;
+  }
+  #care {
+    filter: brightness(10);
+  }
+  #connect{
+    margin-top: 40px;
   }
   .Socials {
     height: 70px;
