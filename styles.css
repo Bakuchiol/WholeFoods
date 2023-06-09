@@ -172,7 +172,34 @@ li {
     width: 78%;    
 }
 
+/* SALES */
+.lowerSales {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px 60px 30px;
+}
+.sale img {
+    width: 300px;
+}
+.sale p {
+    width: 300px;
+    margin: 10px 0 10px 0;
+    color: #004E36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
 
+/* lower Deal */
+.lowerDeal {
+    margin-top: 100px;
+}
+.lowerDesc {
+    width: 500px;
+}
+.lowerDesc p {
+    margin: 10px 0 20px 0;
+}
 
 
 /* -------------------------------------------- */
