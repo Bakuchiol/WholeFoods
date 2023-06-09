@@ -290,6 +290,23 @@ hr {
     margin-top: 15px;
 }
 
+/* motivational mountain */
+.mountain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid pink;
+    height: 700px;
+    background-image: url(https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/3f/b5/aef3604e47f685a2f8ce2ac7f6ce/23-wfm-q2-brandmoment-shutterstock-1733984780._TTW_._CR0,2,4896,1958_._SR1800,720_._QL100_.jpg);
+}
+#motive {
+    width: 900px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
 
 /* -------------------------------------------- */
 /* FOOTER */
