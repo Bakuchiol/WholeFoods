@@ -91,3 +91,61 @@ li {
     height: 16px;
     margin: 0 60px 0 10px;
 }
+
+
+
+
+
+/* -------------------------------------------- */
+/* FOOTER */
+.logopic2 {
+    /* width: 20%; */
+    margin-left: 40px;
+    padding: 20px;
+  }
+  .copyright {
+    background-color: #006936;
+  }
+  #copylist {
+    color: black;
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+  }
+  .footersection {
+    background: #004E36;
+    color: white;
+    border: 1px solid #004E36;
+  }
+  .contentsection {
+    display: flex;
+    justify-content: space-around;
+  }
+  .amazon {
+    color: white;
+    text-align: center;
+  }
+  .NeedHelp {
+    border-left: solid white;
+    padding-left: 40px;
+  }
+  .shopping {
+    margin-bottom: 25px;
+  }
+  .shop {
+    list-style: none;
+  }
+  .email {
+    background-color: #004E36;
+    border: white 0.2px solid;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .Socials {
+    height: 70px;
+  }
+  .amazon {
+    height: 35px;
+  }
