@@ -125,8 +125,9 @@ li {
     font-size: 18px;
 }
 #valid {
-    font-size: 15px;
     margin: 10px 0 25px 0;
+    font-size: 15px;
+    opacity: 65%;
 }
 
 /* buttons */
@@ -196,11 +197,13 @@ li {
 }
 .lowerDesc {
     width: 500px;
-    margin-left: 170px;
+    margin: 20px 0 0 150px;
     position: absolute;
 }
 .lowerDesc p {
+    width: 450px;
     margin: 10px 0 20px 0;
+    font-size: 18px;
 }
 .salad {
     display: flex;
@@ -215,7 +218,44 @@ li {
     width: 50%;
 }
 
-/*  */
+/* BOTTOM PICNIC */
+.bottomPicnic {
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.picnicBG {
+    width: 1000px;
+    height: 760px;
+    background: #f8f7f5;
+}
+.picnic {
+    width: 36%;
+    z-index: 9;
+    position: absolute;
+    left: 230px;
+    margin-top: -60px;
+}
+.picnicDesc {
+    z-index: 9;
+    position: absolute;
+    right: 130px;
+    width: 450px;
+    margin-top: 60px;
+    font-size: 18px;
+}
+.picnicDesc h1 {
+    font-size: 40px;
+}
+.picnicDesc p {
+    margin: 12px 0 20px 0;
+}
+#order {
+    opacity: 65%;
+    font-size: 15px;
+}
+.picnicVeg {
+    width: 250px;
+}
 
 
 /* -------------------------------------------- */
