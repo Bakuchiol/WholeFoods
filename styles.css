@@ -83,9 +83,11 @@ li {
 .logIn {
     margin-top: 12px;
     display: flex;
-    color: #fff;
     gap: 15px;
     font-size: 18px;
+}
+.logIn p {
+    color: #fff;
 }
 /* find a store div */
 .store {
@@ -95,9 +97,11 @@ li {
     justify-content: flex-end;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #004e36;
     font-weight: 700;
     padding-top: 15px;
+}
+.store p {
+    color: #004e36;
 }
 .store img {
     height: 16px;
@@ -155,7 +159,6 @@ li {
     margin: 120px 0 80px 0;
 }
 .midDesc {
-    border: solid salmon;
     z-index: 1;
     position: absolute;
     padding: 30px 60px 20px 55px;
@@ -295,7 +298,6 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid pink;
     height: 700px;
     background-image: url(https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/3f/b5/aef3604e47f685a2f8ce2ac7f6ce/23-wfm-q2-brandmoment-shutterstock-1733984780._TTW_._CR0,2,4896,1958_._SR1800,720_._QL100_.jpg);
 }
@@ -306,6 +308,57 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 600;
+}
+/* offers */
+.offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 100px;
+    position: absolute;
+}
+/* PRIME */
+.primeMembers {
+    width: 460px;
+    background: #fff;
+}
+.primeMembers h1 {
+    font-weight: 500;
+}
+.primeMembers p {
+    margin: 10px 0 20px 0;
+}
+#exclusions {
+    opacity: 60%;
+}
+/* visa */
+.amazon {
+    border: solid green;
+    width: 230px;
+    text-align: center;
+}
+.amazon h2,p {
+    color: black;
+}
+/* delivery */
+.delivery {
+    width: 310px;
+    text-align: center;
+}
+/* background pic n div */
+.background {
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px 0 300px 0;
+}
+.backImg {
+    background: url(https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/fb/0e/601957a4498aaf1c7652f0c53197/1-hero-white._TTW_._CR0,0,1440,1800_._SR720,900_._QL100_.jpg);
+    height: 500px;
+    width: 700px;
+}
+.backEmpty {
+    background: #f8f7f5;
+    width: 700px;
 }
 
 /* -------------------------------------------- */
