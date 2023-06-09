@@ -192,14 +192,30 @@ li {
 
 /* lower Deal */
 .lowerDeal {
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
 }
 .lowerDesc {
     width: 500px;
+    margin-left: 170px;
+    position: absolute;
 }
 .lowerDesc p {
     margin: 10px 0 20px 0;
 }
+.salad {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.empty {
+    width: 400px;
+    background: #f8f7f5;
+}
+.salad img {
+    width: 50%;
+}
+
+/*  */
 
 
 /* -------------------------------------------- */
